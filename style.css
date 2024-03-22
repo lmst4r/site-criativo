@@ -5,8 +5,8 @@
 
 
 .cabecalho{
-    background-color: rgb(43, 131, 247);
-    color: rgb(45, 142, 226);
+    background-color: rgb(247, 43, 203);
+    color: rgb(179, 23, 166);
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
@@ -25,15 +25,15 @@
 
 .cabecalho-lista-item a{
     text-decoration: none;
-    color:#FFFFFF;
+    color:#b61084;
 }
 
 a:hover {
-    color: #16CFF8;
+    color: #ba09dd;
 }
 
 a:active{
-    color: rgb(105, 144, 216);
+    color: rgb(202, 71, 235);
 
 }
 
@@ -44,8 +44,8 @@ a:active{
 }
 
 .escola{
-    background-image:linear-gradient( #424E61, #16CFF8) ;
-    color: white;
+    background-image:linear-gradient( #09f1e6, #16f8e5) ;
+    color: rgb(186, 58, 236);
     display: flex;
     justify-content: center;
     align-items: center;

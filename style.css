@@ -12,7 +12,7 @@ body {
 /*Iniciar Seção cabeçalho*/
 .cabecalho {
     background-color: #ffffff; /*cor de fundo*/
-    color: #ffffff; /*cor*/
+    color: #d107fa; /*cor*/
     display: flex; /*propriedade flex para organizar os itens do cabaçalho, lado a lado*/
     justify-content: space-around; /*alinha as imagens e os textos com espaçamento entre eles*/
     align-items: center; /*alinhamento de itens centralizado*/

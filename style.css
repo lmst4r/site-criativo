@@ -1,206 +1,85 @@
-/*Adicionar as propriedades margin e padding no seletor universal (asterisco) */
-*{
-    margin: 0; /*altera o espaçamento externo*/
-    padding: 0; /*altera o espaçamento interno*/
-}/**/
-
-body {
-    font-family: 'Poppins', sans-serif;
-   
+*{margin: 0;
+    padding: 0;
 }
 
-/*Iniciar Seção cabeçalho*/
-.cabecalho {
-    background-color: #ffffff; /*cor de fundo*/
-    color: #d107fa; /*cor*/
-    display: flex; /*propriedade flex para organizar os itens do cabaçalho, lado a lado*/
-    justify-content: space-around; /*alinha as imagens e os textos com espaçamento entre eles*/
-    align-items: center; /*alinhamento de itens centralizado*/
-    padding: 24px 0; /*altera o espaçamento interno*/
+
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    color: rgb(248, 243, 248));
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabecalho-titulo{
+    color: #ff00b3;
+    font-style: italic;
+    font-variation-settings:
 }
 
 .cabecalho-imagem{
-    width: 8%; /**/
-    border-radius: 22px; /*para definir bordas arredondadas da imagem*/  
+    width: 8%;
+    border-radius: 22px;
 }
-
-/*A lista não ordenada ul precisa estar alinhada em uma única linha.
-Crie um seletor para a classe .cabecalho-lista-item, adicionando nele 
-a propriedade display com o valor inline-block:*/
-/*Aumente os espaçamentos entre os textos com a propriedade margin de valor 0 16px:*/
-/*Aumente a fonte através da propriedade font-size de valor 24px.*/
 
 .cabecalho-lista-item{
-    display: inline-block; /*o valor inline-block na propriedade display,os item da lista ficam lado a lado*/
-    margin: 0 16px; /**/
-    font-size: 24px; /*tamanho da fonte*/
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
 
-.cabecalho-lista-item a {
-   text-decoration: none; /**/
-   color: #ec078d;/*cor*/
+.cabecalho-lista-item a{
+    text-decoration: none;
+    color:rgb(245, 128, 198);
 }
 
-/*Efeito alterar a cor quando passa o mouse*/
 a:hover {
-    color:#b116f8; /*cor*/
+    color: #ff00b3;
 }
 
-/*alterar a cor quando clicar com o mouse*/
 a:active{
-    color:rgb(197, 46, 211); /**/
+    color: rgb(247, 0, 193);
+
 }
 
-/*INICIO SEÇÃO ESCOLA*/
-.escola{
-    background-image: linear-gradient(#c600f8, #a200ff);    /*define um gradiente linear como a imagem de fundo)*/ 
-    color: #000000; /*cor*/
-    display: flex; /*organizar a estrutura do nosso conteúdo*/
-    justify-content: center; /*alinha imagem e os textos com espaçamentos entre eles*/
-    padding: 24px 0; /*Altera o espaçamento interno*/
-}
-
-.escola-div-conteudo{
-    width: 45%; /*largura*/
-    color: #000000;/*cor*/ 
-}
-
-.escola-titulo{
-    padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
-    segundo valor bordas horizontais(esquerda e direita)*/
-    font-size: 25px;/*tamanho da fonte*/
-}
-
-.escola-texto{
-    font-size: 20px;/*tamanho da fonte*/
-      
-}
-
-.imagem-escola{
-     width: 30%; /*largura*/
-     height: 300px;/*altura*/
-     border-radius: 82px; /*para definir bordas arredondadas da imagem*/   
-}
-/*FIM SEÇÃO ESCOLA*/
-
-/*INICIO SEÇÃO ESTUDANTE*/
-.estudante{
-    background-color: #000000;   /* cor de fundo*/
-    color: #9600fa;/*cor*/
-}
-.estudante-titulo{
-    padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
-    segundo valor bordas horizontais(esquerda e direita)*/
-    margin: 0 120px; /* alinhar o espaçamento */
-    font-size: 25px;/*tamanho da fonte*/
-}
-
-p{
-    padding: 0 120px; /* alinhar o espaçamento */
-    font-size: 20px;/*tamanho da fonte*/  
- }
-
- .estudantes-todos{
-    display: grid; /* especificar o espaçamento do grid(organizar por colunas) */
-    grid-template-columns: 25% 25% 25% 25%; 
-    padding: 0 60px; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
-    segundo valor bordas horizontais(esquerda e direita)*/
-    
-}
-
-.estudante-div{
-    text-align: center;/*texto centralizado*/  
-    padding: 12px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
-    segundo valor bordas horizontais(esquerda e direita)*/
-}
-
-.estudante-imagem{
-    width: 120px;  /*largura*/
-}
-
-.estudante-nome{
-    font-size: 14px;/*tamanho da fonte*/    
-}
-
-.estudante-icone{
-    width: 24px;  /*largura*/
-    padding: 4px 8px;/*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
-    segundo valor bordas horizontais(esquerda e direita)*/
-}
-/*FIM SEÇÃO ESTUDANTE*/
-
-/*SEÇÃO RODAPÉ*/
-.rodape{
-    background-color:  #a200ff; /*define um gradiente linear como a imagem de fundo)*/ 
-}
-
-.copyright{
-    text-align: center;/*texto centralizado*/
-    height: 100px;/*altura*/
-    line-height: 100px;/*altura da linha*/
-    font-size: 12px;/*tamanho da fonte*/
-}
-/*FIM SEÇÃO RODAPÉ*/
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Iniciar Seção escola*/
-
-/* crie um seletor (.) para a classe escola-imagem, determinando uma largura width de 25%:*/
 .escola-imagem{
-    width: 25%; /*largura*/
-     height: 300px;/*altura*/
-     border-radius: 82px; /*para definir bordas arredondadas da imagem*/      
+    width: 25%;
+    height: 300px;
+    border-radius: 82px;
 }
 
-/**/
 .escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
+    background-image:linear-gradient( #fdfdfd, #f7c9e4) ;
+    color: rgb(253, 6, 109);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-/**/
 .escola-div-conteudo{
     width: 45%;
 }
 
-/**/
 .escola-titulo{
+    padding:24px 0;
+}
+
+p{
+    padding:0 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estudante-imagem{
+    width: 24px;
+    }
+
+.rodape{
+    background-color: rgb(253, 182, 253);
+    color: rgb(236, 173, 236));
+    display: flex;
+    justify-content: space-around;
     padding: 24px 0;
 }
 
-/**/
-p{
-    padding: 0 40px; /* alinhar o espaçamento */
-    font-size: 20px;/*tamanho da fonte*/
-    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
- }
-
- 
-}

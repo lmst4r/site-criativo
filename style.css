@@ -81,5 +81,59 @@ p{
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
+}escola-texto{
+    font-size:20px;
+}
+
+.imagem-escola{
+    width: 30%;
+    height: 300px;
+    border-radius:82px;
+}
+
+.estudante{
+    background-color: #16a5f8;
+    color: #000000;
+}
+
+.estudante-titulo{
+    padding: 24px 0;
+    margin: 0 120px;
+    font-size: 25px;
+}
+
+p{
+    padding: 0 120px;
+    font-size:20px;
+}
+
+.estudante-todos{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 60px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 12px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-nome{
+    font-size: 14px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+p{
+    padding:0 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

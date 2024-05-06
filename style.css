@@ -79,7 +79,7 @@ a:active{
 
 /*INICIO SEÇÃO ESTUDANTE*/
 .estudante{
-    background-color: #16a5f8;   /* cor de fundo*/
+    background-color: #eb77fa)   /* cor de fundo*/
     color: #000000;/*cor*/
 }
 .estudante-titulo{
@@ -172,7 +172,7 @@ p{
 /**/
 .escola{
     background-image: linear-gradient(#fdfdfd,#eb77fa);
-    color:white;
+    color:rgb(153, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;

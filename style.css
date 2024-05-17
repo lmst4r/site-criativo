@@ -30,11 +30,11 @@
 
 .cabecalho-lista-item a{
     text-decoration: none;
-    color:rgb(128, 245, 245);
+    color:rgb(5, 5, 5);
 }
 
 a:hover {
-    color: #00f7ff;
+    color: #000000;
 }
 
 a:active{
